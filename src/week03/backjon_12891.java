@@ -65,7 +65,7 @@ public class backjon_12891 {
            int j = i - P; //i는 부분문자열에서의 가장 오른쪽 j는 부분 문자열에서 가장 왼쪽 /범위를 유지하면서 움직이기
             Add(A[i]); // 들어가기 /G
             Remove(A[j]);
-            if(checkSecret == 4) Result++; // 부분문자열 이동할 때 마다 맞는지 확인
+            if(checkSecret == 4) Result++; // 부분문자열 이동할 때 마다 맞는지 확인하는 과정
         }
 
         System.out.println(Result);
